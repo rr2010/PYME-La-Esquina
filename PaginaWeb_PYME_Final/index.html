@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYME: La Esquina</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #333; color: #fff; text-align: center; padding: 1em 0; }
+        nav { background-color: #555; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav a { color: white; padding: 1em; text-decoration: none; }
+        nav a:hover { background-color: #777; }
+        section { padding: 2em; }
+        .productos { display: flex; flex-wrap: wrap; gap: 1em; }
+        .producto { border: 1px solid #ccc; padding: 1em; flex: 1 1 calc(33% - 2em); box-sizing: border-box; }
+        img { max-width: 100%; height: auto; }
+        .cta { background-color: #ff9800; color: white; padding: 1em; text-align: center; margin: 2em 0; }
+        .matriz { margin-bottom: 2em; }
+        @media (max-width: 768px) {
+            .producto { flex: 1 1 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PYME "La Esquina"</h1>
+        <p>Tienda de Barrio</p>
+    </header>
+
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#matrices">Matrices</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>"La Esquina" es una tienda de barrio que ofrece productos esenciales del día a día como pan, bebidas, abarrotes y artículos de consumo rápido, brindando un servicio cercano y confiable a la comunidad desde 2024.</p>
+        <h3>Integrantes y Aportes:</h3>
+        <ul>
+            <li><strong>Pablo Sebastián Oliva Román</strong> - Carné 2023550: Información general de la página, desarrollo de contenido y matrices.</li>
+            <li><strong>Ronald Francisco Pico Morataya</strong> - Carné 2023564: Edición de la página web, revisión de contenido y estilo.</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <h2>¡Haz tu compra hoy y recibe un 10% de descuento!</h2>
+    </section>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="productos">
+            <div class="producto"><h3>Pan Francés</h3><p>Q2.00 - Oferta: 5xQ8.00</p></div>
+            <div class="producto"><h3>Huevo (cartón)</h3><p>Q25.00 - Oferta: 2xQ45.00</p></div>
+            <div class="producto"><h3>Frijol Negro (libra)</h3><p>Q6.00 - Oferta: 3xQ15.00</p></div>
+            <div class="producto"><h3>Arroz Blanco (libra)</h3><p>Q5.50 - Oferta: 2xQ10.00</p></div>
+            <div class="producto"><h3>Café Instantáneo</h3><p>Q18.00 - Oferta: Gratis galleta en combo</p></div>
+            <div class="producto"><h3>Refresco de bolsa</h3><p>Q1.00 - Oferta: 10xQ8.00</p></div>
+            <div class="producto"><h3>Papel Higiénico (paquete)</h3><p>Q12.00 - Oferta: 2xQ20.00</p></div>
+            <div class="producto"><h3>Jabón de ropa</h3><p>Q10.00 - Oferta: 10% descuento</p></div>
+            <div class="producto"><h3>Galletas Ducales</h3><p>Q3.00 - Oferta: 4xQ10.00</p></div>
+            <div class="producto"><h3>Leche Entera 1L</h3><p>Q9.00 - Oferta: 2xQ16.00</p></div>
+            <div class="producto"><h3>Azúcar (libra)</h3><p>Q4.00 - Oferta: 3xQ10.00</p></div>
+            <div class="producto"><h3>Sal Refinada</h3><p>Q2.50 - Oferta: 2xQ4.00</p></div>
+            <div class="producto"><h3>Detergente líquido</h3><p>Q15.00 - Oferta: Regalo de esponja</p></div>
+            <div class="producto"><h3>Sardinas en lata</h3><p>Q5.50 - Oferta: 4xQ20.00</p></div>
+            <div class="producto"><h3>Aceite vegetal (litro)</h3><p>Q12.00 - Oferta: 2xQ20.00</p></div>
+        </div>
+    </section>
+
+    <section id="matrices">
+        <h2>Matrices del Proyecto</h2>
+        <div class="matriz">
+            <h3>Diagrama de Flujo</h3>
+            <p>Autor: Pablo Sebastián Oliva Román - Carné 2023550</p>
+            <img src="imagenes/diagrama-flujo.png" alt="Diagrama de flujo">
+        </div>
+        <div class="matriz">
+            <h3>Diagrama de Gantt</h3>
+            <p>Autor: Pablo Sebastián Oliva Román - Carné 2023550</p>
+            <img src="imagenes/gantt.png" alt="Diagrama de Gantt">
+        </div>
+        <div class="matriz">
+            <h3>Lean Canvas</h3>
+            <p>Autor: Pablo Sebastián Oliva Román - Carné 2023550</p>
+            <img src="imagenes/lean-canvas.png" alt="Lean Canvas">
+        </div>
+        <div class="matriz">
+            <h3>Matriz Urgente vs Importante</h3>
+            <p>Autor: Pablo Sebastián Oliva Román - Carné 2023550</p>
+            <img src="imagenes/urgente-importante.png" alt="Matriz urgente/importante">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>📞 WhatsApp: +502 1234 5678</p>
+        <p>📧 Correo: info@laesquina.gt</p>
+        <p>📍 Dirección: Zona 1, Ciudad de Guatemala</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Esquina - Todos los derechos reservados</p>
+        <p>Proyecto académico - Gestión de Innovación y Tecnología</p>
+        <p>Integrantes:</p>
+        <ul>
+            <li>Pablo Sebastián Oliva Román - Carné 2023550</li>
+            <li>Ronald Francisco Pico Morataya - Carné 2023564</li>
+        </ul>
+    </footer>
+</body>
+</html>
